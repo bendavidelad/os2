@@ -1,4 +1,3 @@
-#include <iostream>
 
 
 #ifndef PROJECT2_THREAD_H
@@ -7,7 +6,6 @@
 static const int READY = 0;
 static const int RUNNING = 1;
 static const int BLOCKED = 2;
-
 typedef void (*voidFn)();
 
 

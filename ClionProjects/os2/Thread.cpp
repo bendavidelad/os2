@@ -1,5 +1,4 @@
 #include "Thread.h"
-typedef void (*voidFn)();
 
 
 Thread::Thread(void (*func)(void)){

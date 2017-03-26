@@ -1,6 +1,6 @@
 #ifndef _UTHREADS_H
 #define _UTHREADS_H
-#include "uthreads.h"
+#include "Thread.h"
 
 /*
  * User-Level Threads Library (uthreads)
@@ -21,7 +21,7 @@
  * function with non-positive quantum_usecs.
  * Return value: On success, return 0. On failure, return -1.
 */
-int uthreads::uthread_init(int quantum_usecs){}
+int uthread_init(int quantum_usecs);
 
 /*
  * Description: This function creates a new thread, whose entry point is the
